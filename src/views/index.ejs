@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>
+    <%=title %>
+  </title>
+</head>
+
+<body>
+
+  <div class="container mt-4 d-flex flex-column justify-content-center align-items-center">
+    <h2 class=" fs-2 mb-5">Well Come to Our Website :)</h2>
+    <h3 class="text-center mb-5 ">
+      <a class="text-info  " href="/products">Click here to Get product List</a>
+    </h3>
+    <%- include('./partials/productList'); %>
+  </div>
+</body>
+
+</html>
